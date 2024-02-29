@@ -180,7 +180,7 @@ hr {
 }
 .btn-custom:hover,
 .btn-custom:focus,
-.btn-custom.focus,
+.btn-custom.focus,щг
 .btn-custom:active,
 .btn-custom.active {
   color: #fff;
@@ -453,7 +453,8 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 220px;
+  height: 200px;
 }
 #team .thumbnail {
   background: transparent;

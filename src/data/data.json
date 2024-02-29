@@ -32,11 +32,11 @@
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "dj set",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "music record",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
@@ -65,7 +65,7 @@
     {
       "img": "img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name": "Raida Akunova"
     },
     {
       "img": "img/testimonials/02.jpg",
@@ -96,12 +96,12 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Raida Akunova",
+      "job": "Kapitan"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
+      "name": "Jibek Bekeeva",
       "job": "Senior Designer"
     },
     {

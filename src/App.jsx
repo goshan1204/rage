@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -26,10 +27,16 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <BrowserRouter>
+      <Routes >
+        <Route path="features" element={<Features/>} data={landingPageData.Features}/>
+      
+      </Routes>
+      </BrowserRouter>
       <Header data={landingPageData.Header} />
+      <Services data={landingPageData.Services}/>
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
